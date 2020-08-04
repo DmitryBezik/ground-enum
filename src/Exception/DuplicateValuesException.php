@@ -6,6 +6,6 @@ namespace Ground\Enumeration\Exception;
 
 use Exception;
 
-final class DuplicateValuesException extends Exception
+final class DuplicateValuesException extends Exception implements EnumExceptionInterface
 {
 }

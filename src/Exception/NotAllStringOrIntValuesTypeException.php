@@ -6,6 +6,6 @@ namespace Ground\Enumeration\Exception;
 
 use Exception;
 
-final class NotAllStringOrIntValuesTypeException extends Exception
+final class NotAllStringOrIntValuesTypeException extends Exception implements EnumExceptionInterface
 {
 }
